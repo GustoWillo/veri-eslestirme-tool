@@ -9,7 +9,7 @@ def check_rules(row):
 
     has_contract = any(word.isdigit() and len(word) == 8 for word in str(description).split())
     has_tckn = any(word.isdigit() and len(word) == 11 for word in str(description).split())
-    has_name = any(name in description for name in ["Ali Veli", "Ayşe Kaya", "Mehmet Yılmaz"])
+    has_name = any(name in str(description) for name in ["Ali Veli", "Ayşe Kaya", "Mehmet Yılmaz"])
 
     try:
         parsed_amount = float(amount)
