@@ -4,8 +4,9 @@ import streamlit as st
 import pandas as pd
 import datetime
 
-# Belirli isimleri içeren örnek liste (ileri aşamada dinamik yapılabilir)
-KNOWN_NAMES = ["Ali Veli", "Ayşe Kaya", "Mehmet Yılmaz"]
+# Gerçek listeyi CSV'den oku
+name_df = pd.read_csv("isim_listesi.csv")
+KNOWN_NAMES = name_df["full_name"].tolist()
 
 # Fonksiyon: Kuralları uygula
 def check_rules(row):
