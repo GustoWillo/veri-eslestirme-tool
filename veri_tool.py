@@ -1,6 +1,6 @@
-st.caption("✅ Kod gerçekten güncellenmişse bu yazı görünür.")
-
 # Streamlit tabanlı demo: Veri Temizleme Aracı
+
+st.caption("✅ Kod gerçekten güncellenmişse bu yazı görünür.")
 
 import streamlit as st
 import pandas as pd
