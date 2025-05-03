@@ -1,4 +1,4 @@
-st.caption("✅ Kod en son 3 Mayıs 2025'te güncellendi.")
+st.caption("✅ Kod gerçekten güncellenmişse bu yazı görünür.")
 
 # Streamlit tabanlı demo: Veri Temizleme Aracı
 
