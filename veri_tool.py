@@ -1,3 +1,5 @@
+st.caption("✅ Kod en son 3 Mayıs 2025'te güncellendi.")
+
 # Streamlit tabanlı demo: Veri Temizleme Aracı
 
 import streamlit as st
